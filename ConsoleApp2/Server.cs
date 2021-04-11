@@ -32,6 +32,7 @@ namespace Server
 
         public void Start()
         {
+
             Address = HandlerNetwork.GetIPAddress();
             Port = HandlerNetwork.GetOpenPort(10000);
 
